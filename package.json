@@ -1,0 +1,17 @@
+{
+  "name": "sql_demo_data",
+  "version": "1.0.0",
+  "description": "Finding demo data for your sql database according to your schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "STAR-173",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.2",
+    "superagent": "^8.1.2"
+  }
+}
